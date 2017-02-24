@@ -1,0 +1,36 @@
+doctype html
+html(lang='zh-TW')
+  head
+    include ./base/head.jade
+  body
+    #fb-root
+    h1.hide 夏日穿搭特輯 - JUKSY 街星
+    include ./header/h_03.jade
+    include ./list/l_06.jade
+    include ./list/l_04.jade
+    include ./list/l_03_infinite.jade
+    include ./gallery/g_01.jade
+    include ./video/v_01.jade
+    include ./footer/f_01.jade
+    include ./btnfixed/b_01.jade
+    include ./plugin/photoswipe_ui.jade
+
+    // JS start
+    include ./list/l_03_infinite_script.jade
+    include ./list/l_06_script.jade
+
+    // JS cdn
+    include ./base/cdnjs.jade
+
+    // JS DEV FILE
+    include ./base/devjs.jade
+
+    // JS MIN FILE
+    //- include ./base/minjs.jade
+
+    // JS third party
+    script(type='text/javascript')
+      include ./js/foot.js
+    // JS third party end
+
+    // JS end
