@@ -5704,23 +5704,11 @@ _:-moz-tree-row(hover), .fixedBtnCover_01 .coverWrap .main .mainWrap .item ul.sh
 _:-ms-input-placeholder, :root .fixedBtnCover_01 .coverWrap .main .mainWrap .item ul.share li .material_btn input.toggle[type="checkbox"], ul.fixedBtn_01 li .material_btn input.toggle[type="checkbox"] {
   display: none; }
 
-body {
-  background-color: #000; }
-
-.header_02 .headerWrap .parallax .videoWrapper .videoCover {
+.header_03 .headerWrap .visualBg .bannerTitle {
   display: none; }
 
-@media screen and (min-width: 1024px) {
-  .header_02 .headerWrap .parallaxContent .title {
-    background-position: center 60%; } }
-
-.header_02 .headerWrap .detail .detailWrap .txtBg {
-  background-color: black; }
-
-.header_02 .headerWrap .detail .detailWrap .txtInner a.link {
-  background-color: #bc002d; }
-  .header_02 .headerWrap .detail .detailWrap .txtInner a.link:hover {
-    background-color: rgba(188, 0, 45, 0.9); }
+.header_03 .headerWrap .visualBg .bannerCover {
+  display: none; }
 
 .header_03 .headerWrap .detail .detailWrap .txtBg {
   background-color: #00222d; }
