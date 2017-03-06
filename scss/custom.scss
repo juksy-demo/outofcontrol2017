@@ -263,6 +263,11 @@ body {
     }
   }
   .gallery_01_slider {
+    .galleryWrap {
+      @include screen(pcSmall) {
+        @include transform(scale(0.4) translateX(4.5%));
+      }
+    }
     .lSAction {
       >a {
         svg {
@@ -277,30 +282,30 @@ body {
   ul.slider {
     li {
       // 隱藏照片描述(調整高度)
-      // height: 240px; //240(img)+66(txt)
+      height: 240px; //240(img)+66(txt)
       @include screen(mMedium) {
         // 隱藏照片描述(調整高度)
-        // height: 281.25px; //281.25(img)+66(txt)
+        height: 281.25px; //281.25(img)+66(txt)
       }
       @include screen(mLarge) {
         // 隱藏照片描述(調整高度)
-        // height: 310.5px; //310.5(img)+66(txt)
+        height: 310.5px; //310.5(img)+66(txt)
       }
       @include screen(tb) {
         // 隱藏照片描述(調整高度)
-        // height: 576px; //576(img)+48(txt)
+        height: 576px; //576(img)+48(txt)
       }
       .img {
         // 隱藏照片描述(調整高度)
-        // height: 100%; //240(img)+66(txt)
+        height: 100%; //240(img)+66(txt)
         @include screen(tb) {
           // 隱藏照片描述(調整高度)
-          // height: 100%; //576(img)+48(txt)
+          height: 100%; //576(img)+48(txt)
         }
       }
       .txt {
         // 隱藏文字描述
-        // display: none;
+        display: none;
         // 描述顏色
         // color: $white;
         // 描述背景色

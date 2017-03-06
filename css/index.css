@@ -5730,6 +5730,33 @@ _:-ms-input-placeholder, :root .fixedBtnCover_01 .coverWrap .main .mainWrap .ite
 .list_06 .layoutWrap ul.article li a.img .linkWrap {
   background-color: rgba(112, 188, 216, 0.3); }
 
+@media screen and (min-width: 1024px) {
+  .gallery_01 .gallery_01_slider .galleryWrap {
+    -webkit-transform: scale(0.4) translateX(4.5%);
+    -ms-transform: scale(0.4) translateX(4.5%);
+    -moz-transform: scale(0.4) translateX(4.5%);
+    -o-transform: scale(0.4) translateX(4.5%);
+    transform: scale(0.4) translateX(4.5%); } }
+
+.gallery_01 ul.slider li {
+  height: 240px; }
+  @media screen and (min-width: 375px) {
+    .gallery_01 ul.slider li {
+      height: 281.25px; } }
+  @media screen and (min-width: 414px) {
+    .gallery_01 ul.slider li {
+      height: 310.5px; } }
+  @media screen and (min-width: 768px) {
+    .gallery_01 ul.slider li {
+      height: 576px; } }
+  .gallery_01 ul.slider li .img {
+    height: 100%; }
+    @media screen and (min-width: 768px) {
+      .gallery_01 ul.slider li .img {
+        height: 100%; } }
+  .gallery_01 ul.slider li .txt {
+    display: none; }
+
 .video_01 {
   background-image: url("../img/video_bg.jpg");
   background-repeat: no-repeat;
