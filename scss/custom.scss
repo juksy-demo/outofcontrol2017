@@ -320,7 +320,11 @@ body {
   background-image: url('../img/video_bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   //background-color: rgba(23,23,118,0.7);
+  &.video_01_2 {
+    background-image: url('../img/video_bg2.jpg');
+  }
   @include screen(pcLarge) {
     //桌機模版背景
     background-size: 100% auto;

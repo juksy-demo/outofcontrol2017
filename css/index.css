@@ -5760,7 +5760,10 @@ _:-ms-input-placeholder, :root .fixedBtnCover_01 .coverWrap .main .mainWrap .ite
 .video_01 {
   background-image: url("../img/video_bg.jpg");
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
+  .video_01.video_01_2 {
+    background-image: url("../img/video_bg2.jpg"); }
   @media screen and (min-width: 1280px) {
     .video_01 {
       background-size: 100% auto; } }
